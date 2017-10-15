@@ -1,0 +1,235 @@
+.main{
+	height: 1971px;
+	width: 1140px;
+	margin:0 auto;
+}
+.main .left{
+	float: left;
+	width: 825px;
+	padding: 46px 15px 0;
+}
+.main .right{
+	float: right;
+	width: 269px;
+	padding: 46px 0 0 15px;
+}
+.main .right h2{
+	font-size:14px;
+	font-weight:  bolder;
+	color: #000000;
+	line-height: 14px;
+	height: 14px;
+}
+.main .right input{
+	text-indent:1em;
+	border-radius:7px;
+	line-height: 42px;
+	width: 253px;
+	height: 42px;
+	border: 1px solid #dbdbdb;
+	margin-top: 28px;
+	background: url(../images/search.png) no-repeat 228px 12px;
+}
+.main .right h3{
+	font-size:14px;
+	font-weight:  bolder;
+	color: #000000;
+	line-height:66px;
+	height:66px;
+}
+.main .right li{
+	font-size: 10px;
+	font-weight: normal;
+	color: #9d9c9a;
+	line-height: 23px;
+	height: 23px;
+	padding-left: 26px;
+	background: url(../images/b_arrow.png) no-repeat 3px 4px;
+}
+.main .right a{
+	color: #9f9f9d;
+}
+.main .right a:hover{
+	color:#ed5844;
+}
+.main .right .pic img{
+	width: 114px;
+	height:73px;
+	margin: 0 6px 8px;
+}
+.main .left h3{
+	font-size:14px;
+	font-weight: bolder;
+	color: #000000;
+	line-height: 14px;
+	height: 14px;
+}
+.main .left p{
+	font-size: 12px;
+	font-weight:normal;
+	color: #9f9f9f;
+	line-height: 45px;
+	height: 45px;
+}
+.main .left span{
+	color: #ed5746;
+}
+.main .left img{
+	float: left;
+	width: 813px;
+	height: 417px;
+	border: 6px solid #ed5746;
+}
+.main .left .pic{
+	width: 825px;
+	height: 429px;
+	position:relative;
+}
+.main .left .pic .tubiao{
+	height: 46px;
+	float:right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.main .left .pic .one{
+	display: block;
+	width: 42px;
+	height: 41px;
+	float: left;
+	background:url(../images/s-icons.png) no-repeat -239px -122px;
+	
+}
+.main .left .pic .two{
+	display: block;
+	width: 41px;
+	height: 41px;
+	float: left;
+	background:url(../images/s-icons.png) no-repeat -288px -122px;
+	margin: 0 5px 0 3px;
+}
+.main .left .text1{
+	font-size: 12px;
+	font-weight:normal;
+	color: #9f9f9f;
+	line-height: 41px;
+	height: 41px;
+}
+.main .left .text2{
+	font-size: 10px;
+	font-weight: normal;
+	color: #a0a0a0;
+	line-height:23px;
+	height: 230px;
+}
+.main .left form input{
+	text-indent:1px;
+	padding-left:1em;
+}
+.main .left form h2{
+	font-size: 19px;
+	font-weight: normal;
+	color: #000;
+	line-height: 47px;
+	height: 47px;
+}
+.main .left form h3{
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	line-height: 24px;
+	height: 24px;
+}
+.main .left form .text{
+	width: 808px;
+	height: 38px;
+	background-color: #EEEEEE;
+}
+.main .left form .ten{
+	padding-top: 17px;
+}
+.main .left form textarea{
+	text-indent:1px;
+	padding:1em;
+	resize:none;
+	width: 808px;
+	height: 150px;
+	background-color: #eeeeee;
+}
+.main .left form .one{
+	width: 808px;
+	height: 38px;
+	background-color: #EEEEEE;
+	color: #5f5f5f;
+	padding-left: 17px;
+}
+.main .left .send{
+	width: 145px;
+	height: 51px;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.5) inset;
+	background-color: #ed5844;
+	font-size: 11PX;
+	font-weight: bolder;
+	color:#FFFFFF;
+	margin-top: 16px;
+	text-align: center;
+}
+.main .left h2{
+	font-size: 19px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 61px;
+	height: 61px;
+	margin-top: 35px;
+}
+.main .left .con{
+	width: 823px;
+	height: 199px;
+	border: 1px solid #d4d4d4;
+}
+.main .left .con img{
+	width: 158px;
+	height: 158px;
+	margin: 17px 47px 0 15px;
+	border: 0;
+}
+.main .left .con h3{
+	font-size: 10px;
+	color: #000;
+	line-height: 20px;
+	height: 20px;
+	padding-top: 15px;
+}
+.main .left .con .text6{
+	font-size: 7px;
+	font-weight: normal;
+	color: #979797;
+	line-height: 23px;
+	height: 92px;
+}
+.main .left .con .text5{
+	float: left;
+	font-size: 7px;
+	font-weight: normal;
+	color: #979797;
+	line-height: 59px;
+}
+.main .left .con .reply{
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 43px;
+	text-align: center;
+	float: right;
+	margin-right: 96px;
+	display: block;
+	width: 90px;
+	height: 43px;
+	background-color: #ed5844;
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.5) inset;
+}
+.main .left .last{
+	margin-top: 40px;
+}

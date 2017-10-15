@@ -1,0 +1,123 @@
+.main {
+	height:1055px;
+	width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+}
+.main .m-top{
+	height:419px;
+	margin-top: 12px;
+}
+.main .m-top h2{
+	font-size:28px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 144px;
+	height: 144px;
+}
+.main .m-top .con {
+	float: left;
+	width: 360px;
+	height: 128px;
+	background-image: url(../images/ser-bg.png);
+	background-repeat: no-repeat;
+	margin: 0 20px 20px 0;
+}
+.main .m-top .con .left {
+	float: left;
+	width: 67px;
+	height: 123px;
+}
+.main .m-top .con .one {
+	background:#ed5844 url(../images/s-icons.png ) no-repeat 18px 43px;
+}
+.main .m-top .con .two {
+	background:#ed5844 url(../images/s-icons.png ) no-repeat -66px 43px;
+}
+.main .m-top .con .three {
+	background:#ed5844 url(../images/s-icons.png ) no-repeat -144px 43px;
+}
+.main .m-top .con .four {
+	background:#ed5844 url(../images/s-icons.png ) no-repeat 22px -74px;
+}
+.main .m-top .con .five {
+	background:#ed5844 url(../images/s-icons.png ) no-repeat -64px -69px;
+}
+.main .m-top .con .six {
+	background:#ed5844 url(../images/s-icons.png ) no-repeat -142px -69px;
+}
+.main .m-top .text{
+	width: 286px;
+	float: right;
+	padding-right:7px ;
+}
+.main .m-top .text h3{
+	font-size: 16PX;
+	color: #514f50;
+	line-height: 40px;
+	height: 40px;
+	padding:10px 0 0 23px;
+}
+.main .m-top .text p{
+	font-size: 12px;
+	font-weight: normal;
+	color: #9f9f9f;
+	line-height: 20px;
+	padding-left: 23px;
+}
+.main .m-bot{
+	margin-top: 42px;
+	height: 579px;
+}
+.main .m-bot h2{
+	font-size:28px;
+	font-weight: bold;
+	color: #000000;
+	line-height:86px;
+	height:86px;
+}
+.main .m-bot .con{
+	width: 380px;
+	height: 235px;
+	float: left;
+}
+.main .m-bot .con .pic{
+	margin: 0 auto;
+	width: 100px;
+	height: 108px;
+	background:url(../images/img-sprite.png) no-repeat ;
+}
+.main .m-bot .con .two{
+	width: 350px;
+	height: 209px;
+}
+.main .m-bot .con .two img{
+	width: 100%;
+	height: 100%;
+}
+.main .m-bot .con .three{
+	background:url(../images/img-sprite.png) no-repeat -101px 0;
+}
+.main .m-bot .con .four{
+	background:url(../images/img-sprite.png) no-repeat -200px 0;
+}
+.main .m-bot .con .five{
+	background:url(../images/img-sprite.png) no-repeat -300px 0;
+}
+.main .m-bot .con .six{
+	background:url(../images/img-sprite.png) no-repeat -401px 0;
+}
+.main .m-bot .con h3{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	line-height: 31px;
+	height: 31px;
+}
+.main .m-bot .con p{
+	font-size: 13px;
+	font-weight: normal;
+	color: #323232;
+	line-height: 23px;
+	padding-top: 4px;
+}

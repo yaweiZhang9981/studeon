@@ -1,0 +1,281 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+dl,
+dd,
+input,
+textarea,
+select,
+option {
+	margin: 0;
+	padding: 0;
+}
+body{font-family: arial;}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img,
+input {
+	border: none;
+}
+
+.header {
+	height: 83px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.h-inner {
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+	width: 153px;
+	height: 39px;
+	margin-top: 16px;
+}
+.h-inner li a {
+	float: left;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 80px;
+	height: 80px;
+	color: #4b5056;
+	display: block;
+	padding: 0 24px;
+	border-top: 3px solid #FFFFFF;
+}
+.h-inner ul{
+	padding-left: 152px;
+	display: inline-flex;
+}
+.h-inner .active {
+	color: #eb5846;
+	border-top: 3px solid #eb5846;
+	background: url(../images/header-bg_03.jpg) repeat-x;
+}
+.h-inner li a:hover {
+	float: left;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 80px;
+	height: 80px;
+	color: #eb5846;
+	display: block;
+	background: url(../images/header-bg_03.jpg) repeat-x;
+	border-top: 3px solid #eb5846
+}
+.header .icon {
+	float: right;
+	;
+	margin-top: 29px;
+}
+.header .icon a {
+	width: 23px;
+	height: 22px;
+	display: block;
+	float: left;
+	margin-left: 7px;
+	background-image: url(../images/s-icons.png);
+	background-repeat: no-repeat;
+	background-position: -242px -7px;
+}
+.header .icon .two {
+	background-position: -268px -7px;
+}
+.header .icon .three {
+	background-position: -294px -7px;
+}
+
+.header .icon .four {
+	background-position: -319px -7px;
+}
+
+.header .icon .five {
+	background-position: -344px -7px;
+}
+
+.header .icon .six {
+	background-position: -369px -7px;
+}
+
+.header .icon .one:hover {
+	background-position: -242px -46px;
+}
+
+.header .icon .two:hover {
+	background-position: -268px -46px;
+}
+
+.header .icon .three:hover {
+	background-position: -294px -46px;
+}
+
+.header .icon .four:hover {
+	background-position: -319px -46px;
+}
+
+.header .icon .five:hover {
+	background-position: -344px -46px;
+}
+
+.header .icon .six:hover {
+	background-position: -369px -46px;
+}
+.footer{
+	height:273px;
+	background-color:#373737;
+}
+.f-inner{
+	width: 1140px;
+	margin: 0 auto;
+}
+.f-inner .f-list{
+	width: 269px;
+	height: 261px;
+	float: left;
+	padding: 12px 0 0 15px;
+}
+.f-inner .f-list h3{
+	font-size: 18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height: 51px;
+	height: 51px;
+	background: url(../images/foot_03.jpg) no-repeat left bottom;
+}
+.f-inner .f-list .one{
+	font-size: 12px;
+	font-weight: normal;
+	color: #9e9ea0;
+	line-height:23px;
+	margin-top: 19px;
+}
+.f-inner .f-list .two{
+	font-size: 12px;
+	font-weight: normal;
+	color: #9e9ea0;
+	line-height:23px;
+	margin-top:17px;
+}
+.f-inner .f-box{
+	width: 269px;
+	height: 261px;
+	float: left;
+	margin: 12px 0 0 15px;
+}
+.f-inner .f-box h3{
+	font-size: 18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height: 51px;
+	height: 51px;
+	background: url(../images/foot_03.jpg) no-repeat left bottom;
+}
+.f-inner .f-box .tags{
+	margin-top: 25px;
+}
+.f-inner .f-box .tags span{
+	display: inline-block;
+	padding: 0 11px;
+	height: 37px;
+	line-height: 37px;
+	background-color: #000000;
+	font-size: 12px;
+	color: #9c9ba0;
+	font-weight: normal;
+	margin: 0 -1px 4px 0;
+}
+.f-inner .f-latest h3{
+	font-size: 18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height: 51px;
+	height: 51px;
+	background: url(../images/foot_03.jpg) no-repeat left bottom;
+}
+.f-inner .f-latest{
+	width: 269px;
+	height: 261px;
+	float: left;
+	margin: 12px 0 0 15px;
+}
+.f-inner .f-latest{
+	width: 269px;
+	height: 261px;
+	margin-top: 12px;
+}
+.f-inner .latest{
+	padding-top: 20px;
+}
+.f-inner .f-latest .fujian{
+	padding-top: 0;
+}
+.f-inner .latest p{
+	font-size: 11px;
+	font-weight: normal;
+	color: #8a8b8f;
+	line-height: 24px;
+	padding-left: 30px;
+	background: url(../images/tw.png) no-repeat 0 5px;
+}
+.f-inner .latest h4{
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 30px;
+}
+.f-inner .latest a{
+	color: #cfcfcf;
+}
+.f-inner .f-list{
+	width: 269px;
+	height: 261px;
+}
+.f-inner .f-list h3{
+	font-size: 18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	line-height: 51px;
+	height: 51px;
+	background: url(../images/foot_03.jpg) no-repeat left bottom;
+}
+.f-inner .f-list .pic{
+	margin-top:18px;
+}
+.bot{
+	height: 52px;
+	background-color:#232323;
+}
+.b-inner{
+	width: 1140px;
+	margin: 0 auto;
+}
+.bot .b-inner .logo{
+	margin-top: 13px;
+	float:left;
+}
+.bot .b-inner h3{
+	float: right;
+	margin-top: 22px;
+}
+.bot .b-inner a{
+	color: #d94b37;
+}
+.totop {
+	float: right;
+	padding:21px 10px 0 0;
+}
